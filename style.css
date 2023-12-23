@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.container1 {
+    background: #1B244A;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    background-color: #1B244A;
+    padding: 10px 0;
+}
+
+.score {
+    background: #080001;
+    width: 155px;
+    height: 120px;
+    margin: 0 auto;
+    font-size: 90px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F94F6D;
+}
+
+ul {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+button {
+    width: 45px;
+    height: 45px;
+    margin: 0 5px;
+    font-size: 18px;
+    color: #9AABD8;
+    background: #1B244A;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+}
+
+.new-game {
+    width: 130px;
+    margin: 0 0 15px 0;
+}
+
+button:hover {
+    color: #F94F6D;
+    font-weight: bold;
+}
+
+@media (max-width: 700px) {
+    .container2 {
+        flex-direction: column;
+    }
+}

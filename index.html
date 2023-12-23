@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Scorecard</title>
+</head>
+
+<body>
+    <div class="container1" id="hau">
+        <div class="container2">
+            <div class="card home">
+                <h1>HOME</h1>
+                <div class="score score-home">0</div>
+                <ul>
+                    <li class="add1h" onclick="add1home()"><button>+1</button></li>
+                    <li class="add2h" onclick="add2home()"><button>+2</button></li>
+                    <li class="add3h" onclick="add3home()"><button>+3</button></li>
+                </ul>
+            </div>
+            <div class="card guest">
+                <h1>GUEST</h1>
+                <div class="score score-guest">0</div>
+                <ul>
+                    <li class="add1g" onclick="add1guest()"><button>+1</button></li>
+                    <li class="add2g" onclick="add2guest()"><button>+2</button></li>
+                    <li class="add3g" onclick="add3guest()"><button>+3</button></li>
+                </ul>
+            </div>
+        </div>
+        <button class="new-game" onclick="newgame()">New Game</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
